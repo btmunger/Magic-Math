@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Magic Math</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="magicmath.js"></script>
+    </head>
+    <body>
+        <main>
+        <header>
+            <h1>Magic Math</h1>
+        </header>
+        <div id="gameHeaders">
+            <div>
+                <h3 class = "inline-h" id = "spacing-goal">Goal:</h3>
+                <h3 class = "inline-h" id = "goalText"></h3>
+            </div>
+            <div>
+                <h4 class = "inline-p" id = "spacing-wins">Wins:</h4>
+                <h4 class = "inline-p" id = "wins"></h4>
+                <h4 class = "inline-p" id = "spacing-loss">Losses:</h4>
+                <h4 class = "inline-p" id = "loss"></h4>
+            </div>
+        </div>
+        <div id="gameboard">
+            <div id="numbers">
+                <button id = "numb1"></button>
+                <button id = "numb2"></button>
+                <button id = "numb3"></button>
+                <button id = "numb4"></button>
+            </div>
+            <div id="calc">
+                <button id = "calcadd">+</button>
+                <button id = "calcsub">-</button>
+                <button id = "calcmult">*</button>
+            </div>
+            <div id="work">
+                <h2 id="workTitle">Work Area</h2>
+                <p id="firstOperation"></p>
+                <p id="secondOperation"></p>
+                <p id="thirdOperation"></p>
+            </div>
+        </div>
+        <h3 id = "gameStatus"></h3>
+
+        <button id = "newGame">New game</button>
+        </main>
+
+        <footer>
+            Brian Munger - 5/8/2024
+        </footer>
+    </body>
+</html> 

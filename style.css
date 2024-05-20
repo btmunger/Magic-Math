@@ -1,0 +1,125 @@
+header {
+    color: white;
+    background-color: rgb(180, 30, 30);
+    margin: 10px;
+    padding: 10px;
+    border-style: groove;
+    border-color:rgb(180, 30, 30);
+    text-align: left;
+    font-size: 23px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(180, 30, 30);
+    margin: 10px;
+    padding: 10px;
+    border-style: groove;
+    border-color:rgb(180, 30, 30);
+    text-align: left;
+}
+
+#gameHeaders {
+    display: flex;
+    gap: 20px;
+}
+
+
+#gameboard {
+    display: flex;
+    gap: 20px;
+}
+
+#numbers {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    margin: 20px 0px 20px 20px;
+    gap: 5px;
+}
+
+#numb1, #numb2, #numb3, #numb4 {
+    font-size: 40px;
+}
+
+#calcadd, #calcsum, #calcmult {
+    font-size: 27px;
+}
+
+#calc {
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: 50px 50px 50px;
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+#work {
+    border-style: groove; 
+    border: 2px solid rgb(134, 137, 141);
+    background-color: white;
+    color: rgb(130, 177, 193);
+    padding: 5px;
+    width: 20%;
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+}
+
+#workTitle {
+    text-align: center;
+}
+
+#calcadd, #calcsub, #calcmult {
+    font-size: 20px;
+    color: rgb(130, 177, 193);
+    background-color: light-gray;
+    border: 2px solid rgb(130, 177, 193);
+}
+
+#calcadd:hover, #calcsub:hover, #calcmult:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h2, h3, h4 {
+    margin: 20px;
+}
+
+#newGame {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(92, 183, 213);
+    color: white;
+    border-color: light-gray;
+}
+
+#firstOperation, #secondOperation, #thirdOperation {
+    color: black;
+    font-size: 20px;
+}
+
+#spacing-goal {
+    margin: 20px 0 20px 20px;
+}
+
+#spacing-wins {
+    margin: 0 0 0 210px;
+}
+
+#spacing-loss {
+    margin: 20px 0px 20px 30px;
+}
+
+#wins, #loss, #goalText {
+    color: rgb(130, 177, 193); 
+    margin: 0px;
+}
+
+.inline-p, .inline-h {
+    display: inline-block;
+} 
